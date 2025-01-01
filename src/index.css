@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add your custom styles if needed */
+@layer base {
+  :root {
+    --bg-color: #f8e6de;
+    --text-color: #333;
+    --main-color: #ed500a;
+    --white-color: #fdfdfd;
+    --shadow-color: #00000033;
+  }
+
+  .dark {
+    --bg-color: #0b0e14;
+    --text-color: #f8e6de;
+    --shadow-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  @apply font-poppins;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  max-width: 2560px;
+  display: flex;
+  width: 100%;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 10rem 7% 2rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border-radius: 6px;
+}
+
+span{
+  color: var(--main-color);
+}
+
+*::selection {
+  background: var(--main-color);
+  color: var(--bg-color);
+}
+
+
+.social__media {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+
+.social__media li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 0.5rem var(--shadow-color);
+    font-size: 2rem;
+    margin: 2.5rem 1.5rem 0.5rem 0;
+    transition: 0.5s ease;
+    position: relative;
+}
+
+.social__media li a {
+    color: var(--main-color);
+}
+
+.social__media li:hover {
+    background: var(--main-color);
+}
+
+.social__media li:hover a {
+    color: var(--white-color);
+}
+
+.social__media .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: var(--main-color);
+    color: var(--white-color);
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.social__media .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: var(--main-color);
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.social__media .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.social__media .icon:hover span,
+.social__media .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1200px) {
+  html {
+      font-size: 55%;
+  }
+}

@@ -1,9 +1,15 @@
 import { TbBrandAndroid, TbBrandPrisma, TbBrandVite } from "react-icons/tb";
 import CreateSomethingImg from "/Another_Something.png";
-import { FaJava, FaNodeJs } from "react-icons/fa6";
+import ChatAppMain from "/Chat_Main_Platform.png";
+import Babrite_Main_Platform from "/Babrite_Main_Platform.png";
+import MaxHelp_Main_Platform from "/MaxHelp_Main_Platform.png";
+import Tasked_Main_Platform from "/Tasked_Main_Platform.png";
+import Portfolio_Main from "/Portfolio_Main.png";
+import { FaJava, FaNodeJs, FaWhatsapp } from "react-icons/fa6";
 import { SiPostgresql, SiSocketdotio } from "react-icons/si";
 import { RiFirebaseLine, RiTailwindCssLine } from "react-icons/ri";
 import { GrMysql } from "react-icons/gr";
+import { BiLogoGithub, BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
 
 export const tabsTitles = [
   { title: "Skills", id: "skills" },
@@ -70,9 +76,10 @@ export const tabsData = {
 
 export const myWorks = [
   {
-    src: CreateSomethingImg,
+    src: ChatAppMain,
     alt: "Chat Application",
     title: "Real-Time Chat Application",
+    type: "web",
     description:
       "Developed a chat application enabling seamless messaging between friends, emphasizing performance and security, and integrating WebSocket technology to ensure efficient real-time communication, delivering a smooth and reliable user experience tailored to modern needs.",
     stack: [
@@ -81,13 +88,14 @@ export const myWorks = [
       { icon: SiSocketdotio, name: "Socket.io" },
       { icon: GrMysql, name: "MySQL" },
     ],
-    link: "",
+    link: "https://chatappbypellumi.netlify.app/",
     github: "https://github.com/Pellumi/chat_application",
   },
   {
-    src: CreateSomethingImg,
+    src: Babrite_Main_Platform,
     alt: "Shopping Application",
     title: "Campus Shopping Application",
+    type: "mobile",
     description:
       "Developed a campus-focused shopping app streamlining ordering and delivery, utilizing Firebase for image storage, real-time product updates, and cloud messaging for notifications, enhancing efficiency, responsiveness, and user convenience while addressing unique campus community needs.",
     stack: [
@@ -96,13 +104,14 @@ export const myWorks = [
       { icon: FaNodeJs, name: "Express" },
       { icon: RiFirebaseLine, name: "Firebase" },
     ],
-    link: "",
+    link: "https://drive.google.com/drive/folders/1iEd3IWQfI81pdDBiW7HTO7zajpxpxrlZ?usp=sharing",
     github: "https://github.com/Pellumi/shopping-application",
   },
   {
-    src: CreateSomethingImg,
+    src: MaxHelp_Main_Platform,
     alt: "Inventory Management System",
     title: "Inventory Management System",
+    type: "web",
     description:
       "Collaborated on a system to track stock, automate inventory updates, and provide actionable insights, leveraging Prisma as an ORM in Express for seamless database connectivity, and developed responsive dashboards and APIs to handle large-scale data efficiently.",
     stack: [
@@ -115,9 +124,10 @@ export const myWorks = [
     github: "https://github.com/Pellumi/project-management",
   },
   {
-    src: CreateSomethingImg,
+    src: Tasked_Main_Platform,
     alt: "Task Management App",
     title: "Task Management App",
+    type: "mobile",
     description:
       "Created a task management app allowing users to create, track, and prioritize tasks, featuring real-time updates and reminders, with a user-friendly interface and Firebase integration for seamless data synchronization and efficient notifications delivery.",
     stack: [
@@ -125,20 +135,58 @@ export const myWorks = [
       { icon: TbBrandAndroid, name: "Android Studio" },
       { icon: RiFirebaseLine, name: "Firebase" },
     ],
-    link: "",
+    link: "https://drive.google.com/drive/folders/1BV2fI9U68YfWbPmpVXGQBvHvPNtRDEuF?usp=sharing",
     github: "https://github.com/Pellumi/Todo-list-application",
   },
   {
-    src: CreateSomethingImg,
+    src: Portfolio_Main,
     alt: "Portfolio Website",
     title: "Portfolio Website",
+    type: "web",
     description:
       "Developed a dynamic portfolio website highlighting projects, skills, and achievements with a responsive design, incorporating smooth navigation and interactive elements, while optimizing performance to provide an exceptional user experience across all devices and screen sizes.",
     stack: [
       { icon: TbBrandVite, name: "React" },
       { icon: RiTailwindCssLine, name: "TailwindCSS" },
     ],
-    link: "",
-    github: "",
+    link: "https://madebypellumi.netlify.app/",
+    github: "https://github.com/Pellumi/portfolio",
   },
+];
+
+export const mySocials = [
+  { name: "GitHub", link: "https://github.com/Pellumi", icon: BiLogoGithub },
+  {
+    name: "Gmail",
+    link: "mailto:philip.edward1510@gmail.com",
+    icon: BiLogoGmail,
+  },
+  {
+    name: "Linkedin",
+    link: "https://www.linkedin.com/in/philip-edward-ba5167268/",
+    icon: BiLogoLinkedin,
+  },
+  {
+    name: "WhatsApp",
+    link: "whatsapp://send?phone=2349068806168",
+    icon: FaWhatsapp,
+  },
+];
+
+export const myServices = [
+  {
+    title: "Frontend Web Design and Development",
+    subject: "Frontend Web Design and Development",
+  },
+  { title: "Backend Web Development", subject: "Backend Website Development" },
+  {
+    title: "FullStack Web Application Development",
+    subject: "FullStack Web Application Development",
+  },
+  {
+    title: "Mobile Application Development (Android)",
+    subject: "Mobile Application Development (Android)",
+  },
+  { title: "Graphic Design", subject: "Graphic Design" },
+  { title: "Debugging and Code Review", subject: "Debugging and Code Review" },
 ];

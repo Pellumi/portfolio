@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tooltip = ({icon, name}) => {
+export const Tooltip = ({ icon, name }) => {
     return (
         <div className={`rounded-md`}>
             <div className={`flex items-center justify-center p-2 cursor-pointer rounded-md text-main-color border-[1.4px] border-main-color
@@ -21,4 +21,12 @@ const Tooltip = ({icon, name}) => {
     );
 }
 
-export default Tooltip;
+
+export const SocialTooltip = ({ name, link, icon }) => {
+    return (
+        <li className="icon">
+            <span className="tooltip">{name}</span>
+            <a href={link} className=''>{icon}</a>
+        </li>
+    )
+}

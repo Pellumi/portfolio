@@ -25,7 +25,7 @@ export const tabsData = {
     },
     {
       title: "Database Management Systems (DBMS)",
-      description: "MySQL, Microsoft SQL Server, Postgre SQL",
+      description: "MySQL, Microsoft SQL Server, Postgre SQL. MongoDb, Firebase",
     },
     {
       title: "Mobile App Development",
@@ -33,12 +33,12 @@ export const tabsData = {
     },
     {
       title: "Programming Languages",
-      description: "Java, JavaScript, Python, PHP",
+      description: "Java, JavaScript, Python, C#",
     },
     {
       title: "Frameworks",
       description:
-        "ReactJs, ExpressJs, Java Servlet Packages (JSP), SCSS, Tailwind, Bootstrap",
+        "ReactJs, ExpressJs, Java Servlet Packages (JSP), Tailwind, ASP.NET",
     },
   ],
   experience: [

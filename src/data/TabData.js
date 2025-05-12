@@ -43,23 +43,27 @@ export const tabsData = {
   ],
   experience: [
     {
-      title: "January 2024 - June 2024",
-      description:
-        "Internship at National Institute of Information and Technology (NIIT), Abuja",
+      title: "December 2025 - Present",
+      description: "Front-end and Mobile Application Developer at Acad AI",
     },
     {
-      title: "July 2024 - Present",
+      title: "October 2024 - January 2025",
+      description:
+        "Babcock University Student Entrepreneurship Club (BUSEC) - Graphics Designer",
+    },
+    {
+      title: "July 2024 - July 2025",
       description:
         "Babcock University Computer Club (BUCC) - Development Team Member",
     },
     {
-      title: "October 2024 - Present",
+      title: "January 2024 - June 2024",
       description:
-        "Babcock University Student Entrepreneurship Club (BUSEC) - Graphics Designer",
+        "Internship at National Institute of Information and Technology (NIIT), Abuja",
     },
-    { title: "2021-Present", description: "Frontend Website Development" },
-    { title: "2023 - Present", description: "FullStack Website Development" },
-    { title: "2023 - Present", description: "Mobile Application Development" },
+    // { title: "2021-Present", description: "Frontend Website Development" },
+    // { title: "2023 - Present", description: "FullStack Website Development" },
+    // { title: "2023 - Present", description: "Mobile Application Development" },
   ],
   education: [
     { title: "2024", description: "Industrial Attachment at NIIT Nigeria" },
@@ -138,6 +142,21 @@ export const myWorks = [
     link: "https://drive.google.com/drive/folders/1BV2fI9U68YfWbPmpVXGQBvHvPNtRDEuF?usp=sharing",
     github: "https://github.com/Pellumi/Todo-list-application",
   },
+  // {
+  //   src: Tasked_Main_Platform,
+  //   alt: "Task Management App",
+  //   title: "Career Guidance and Resume Analysis System",
+  //   type: "web",
+  //   description:
+  //     "Developed Atlas, a comprehensive web platform for managing academic career guidance and FAQs at Babcock University. Created both the marketing website and the core web application, incorporating features such as AI algorithms for resume analysis, FAQ chatbot, and career guidance.",
+  //   stack: [
+  //     { icon: FaJava, name: "Java" },
+  //     { icon: TbBrandAndroid, name: "Android Studio" },
+  //     { icon: RiFirebaseLine, name: "Firebase" },
+  //   ],
+  //   link: "https://drive.google.com/drive/folders/1BV2fI9U68YfWbPmpVXGQBvHvPNtRDEuF?usp=sharing",
+  //   github: "https://github.com/Pellumi/Todo-list-application",
+  // },
   {
     src: Portfolio_Main,
     alt: "Portfolio Website",
@@ -155,7 +174,11 @@ export const myWorks = [
 ];
 
 export const mySocials = [
-  { name: "GitHub", link: "https://github.com/Pellumi", icon: BiLogoGithub },
+  {
+    name: "GitHub",
+    link: "https://github.com/Pellumi",
+    icon: BiLogoGithub,
+  },
   {
     name: "Gmail",
     link: "mailto:philip.edward1510@gmail.com",
@@ -163,7 +186,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    link: "https://www.linkedin.com/in/philip-edward-ba5167268/",
+    link: "www.linkedin.com/in/philip-edward-199973360",
     icon: BiLogoLinkedin,
   },
   {

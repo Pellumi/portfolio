@@ -42,7 +42,7 @@ const Landing = () => {
               applications.
             </p>
             <a
-              href="https://drive.google.com/file/d/1EEtqUxaSFJ1G6_pbVdrdlBK8rREs9xio/view?usp=sharing"
+              href="https://drive.google.com/file/d/1syrtqTjMvz6ZkkDcloD7F_SUuUJp53da/view?usp=sharing"
               target="blank"
               className="inline-block py-5 px-11 w-max bg-main-color rounded-lg shadow-buttonShadow shadow-shadow-color dark:shadow-shadow-color-dark text-[1.6rem] text-white-color tracking-[0.1rem] font-semibold border-[0.2rem] border-transparent transition-all duration-500 mt-8 hover:bg-transparent hover:text-main-color hover:border-main-color max-[768px]:mx-auto"
             >

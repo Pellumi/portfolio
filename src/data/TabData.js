@@ -186,7 +186,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    link: "www.linkedin.com/in/philip-edward-199973360",
+    link: "https://linkedin.com/in/philip-edward-199973360",
     icon: BiLogoLinkedin,
   },
   {

@@ -26,7 +26,7 @@ export const SocialTooltip = ({ name, link, icon }) => {
     return (
         <li className="icon">
             <span className="tooltip">{name}</span>
-            <a href={link} className=''>{icon}</a>
+            <a href={link} target='blank' className=''>{icon}</a>
         </li>
     )
 }
